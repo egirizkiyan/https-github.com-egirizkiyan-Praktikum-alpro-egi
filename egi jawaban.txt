@@ -1,0 +1,25 @@
+def calculate_circle_area(radius):
+    # Menghitung luas lingkaran
+    area = 3.14 * radius * radius
+    return area
+
+def calculate_rectangle_area(length, width):
+    # Menghitung luas persegi panjang
+    area = length * width
+    return area
+
+def main():
+    # Input radius lingkaran
+    radius = float(input("Masukkan radius lingkaran: "))
+    # Menghitung dan menampilkan luas lingkaran
+    print("Luas lingkaran adalah:", calculate_circle_area(radius))
+
+    # Input panjang dan lebar persegi panjang
+    length = float(input("Masukkan panjang persegi panjang: "))
+    width = float(input("Masukkan lebar persegi panjang: "))
+    # Menghitung dan menampilkan luas persegi panjang
+    print("Luas persegi panjang adalah:", calculate_rectangle_area(length, width))
+
+if __name__ == "__main__":
+    main()
+
